@@ -1,0 +1,11 @@
+name: {{ cookiecutter.repo_name }}
+channels:
+  - defaults
+dependencies:
+  - pip
+  - sphinx
+  - sphinx-intl
+  - pre-commit
+  - pytest
+  - myst-parser
+  - coverage
